@@ -14,7 +14,7 @@ answer = random.randint(1, 10)
 guess = guess_int('Guess my number between 1 and 10: ')
 counter = 1
 if guess == answer and counter <= 1:
-    print('Lucky Guesst')
+    print('Lucky Guess')
 while guess != answer:
     if guess == 0:
         print('Game Over')
